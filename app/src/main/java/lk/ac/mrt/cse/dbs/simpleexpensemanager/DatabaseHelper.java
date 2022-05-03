@@ -33,7 +33,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public static final DateFormat dateFormat = new SimpleDateFormat("yyyy-mm-dd");
 
     public DatabaseHelper(Context context) {
-        super(context, "Account_database.db", null, 1);
+        super(context, "190365F", null, 1);
     }
 
     @Override
