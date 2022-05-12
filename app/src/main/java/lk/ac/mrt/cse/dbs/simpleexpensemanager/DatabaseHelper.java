@@ -164,9 +164,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 break;
         }
 
-        Cursor cursor = db.rawQuery(query,null);
+        //db.rawQuery(query,null);
+        db.execSQL(query);
 
-        cursor.close();
         db.close();
     }
 
